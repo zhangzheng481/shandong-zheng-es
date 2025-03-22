@@ -1,0 +1,12 @@
+spring:
+  elasticsearch:
+    uris: http://182.160.1.15:29200
+    username: elastic  # 如有安全认证
+    password: 123456
+    connection-timeout: 3000
+
+# 开发环境关闭安全证书验证
+logging:
+  level:
+    org.elasticsearch.client: DEBUG
+
